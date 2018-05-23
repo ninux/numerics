@@ -61,7 +61,7 @@ if method==loop
 endif
 
 if method==vector
-  ctr = 1
+  ctr = 1;
   for n=1:2
     x = h*n;
     for p=1:2
